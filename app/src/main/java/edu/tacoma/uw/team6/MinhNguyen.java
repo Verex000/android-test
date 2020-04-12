@@ -3,6 +3,7 @@ package edu.tacoma.uw.team6;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class MinhNguyen extends AppCompatActivity {
@@ -14,5 +15,6 @@ public class MinhNguyen extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.textView);
         textView.setText("This is Minh's Activity");
+        Log.d(this.getClass().getSimpleName(), "Added a Log statement to Minh's Activity");
     }
 }
