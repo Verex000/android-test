@@ -3,6 +3,7 @@ package edu.tacoma.uw.team6;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class SeanSmith extends AppCompatActivity {
 
@@ -10,6 +11,6 @@ public class SeanSmith extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sean_smith);
-        //co
+        Log.d(this.getClass().getSimpleName(), "Kevin Edited Sean Smiths activity");
     }
 }
